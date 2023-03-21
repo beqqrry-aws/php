@@ -28,3 +28,8 @@ function colorCode(string $color): int
 {
     throw new \BadFunctionCallException("Implement the colorCode function");
 }
+
+function listColors(): array
+{
+    throw new \BadFunctionCallException("Implement the listColors function");
+}
