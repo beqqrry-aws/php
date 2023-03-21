@@ -28,7 +28,7 @@ class ResistorColorTest extends PHPUnit\Framework\TestCase
 {
     public static function setUpBeforeClass(): void
     {
-        require_once 'ResistorColor.php';
+        require_once 'ResistorColor.php'; //This is your code being loaded.
     }
 
     public function testColors(): void
