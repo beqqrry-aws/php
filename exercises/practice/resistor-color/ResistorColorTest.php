@@ -44,7 +44,7 @@ class ResistorColorTest extends PHPUnit\Framework\TestCase
             "violet",
             "grey",
             "white"
-        ], COLORS);
+        ], listColors());
     }
 
     public function testBlackColorCode(): void
